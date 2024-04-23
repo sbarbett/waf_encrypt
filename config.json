@@ -1,0 +1,11 @@
+{
+  "domain": [
+    "test1.example.com",
+    "test2.example.com"
+  ],
+  "email": "your.email@example.com",
+  "udns_uname": "ultradns_username",
+  "udns_pw": "ultradns_password",
+  "uwaf_id": "ultrawaf_api_key",
+  "uwaf_secret": "ultrawaf_api_secret"
+}
