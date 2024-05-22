@@ -29,6 +29,7 @@ The script uses a JSON configuration file (`config.json`) to manage its settings
 - The script should be run in a secure environment, as it handles sensitive keys and credentials.
 - Ensure that all dependencies are properly installed and accessible in your system's PATH.
 - The script includes automatic acceptance of Let's Encrypt's TOS; ensure this is acceptable for your use case.
+- A `name` of the certificate will be appended with a UID to prevent conflict when uploading, this is a truncated hash of a timestamp and random characters.
 
 ## Support
 For issues or enhancements, contact the support team at Vercara or submit an issue via the GitHub repository.
